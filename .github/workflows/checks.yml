@@ -1,0 +1,16 @@
+name: checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  safety-and-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Public-safety scan
+        env:
+          PUBLIC_SAFE_TERMS: ${{ secrets.PUBLIC_SAFE_TERMS }}
+        run: bash scripts/check-public-safe.sh
+      - name: Structure lint
+        run: bash scripts/lint-repo.sh

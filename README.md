@@ -53,7 +53,7 @@ Optional for Claude: `bash scripts/link-tools.sh` (add `--copy` on a synced driv
 | `consumer/` | Adapters for consumer assistants (Gemini, Grok and Grok Bot, Muse), shared constitutions, injection shield, state bridge and probes |
 | `kid-mode/` | A separate, narrower agent for children (`KID-AGENT.md`) |
 | `docs/` | Architecture and rollout, tool matrix, skill-writing guide, Grok Bot implementation guide and the kids module spec (draft) |
-| `scripts/` | `link-tools.sh`, `compile-consumer.sh` (builds tier-filtered bundles into `dist/`), `check-staleness.sh` |
+| `scripts/` | `link-tools.sh`, `compile-consumer.sh` (builds tier-filtered bundles into `dist/`), `check-staleness.sh`, plus maintainer tools `check-public-safe.sh`, `lint-repo.sh`, `install-hooks.sh` |
 
 `outputs/`, `dist/` and `context/members/*/private/` are git-ignored on purpose.
 
@@ -96,6 +96,8 @@ Read [`harness/guardrails.md`](harness/guardrails.md) and [`harness/autonomy-lad
 - **Not professional advice.** Family OS helps with logistics. It isn't medical, legal, financial or tax advice. Check anything important with a qualified professional.
 
 ## Contributing
+
+This public repo is the primary working copy of the template. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the workflow, the safety scripts and CI.
 
 Issues and pull requests are welcome, especially new skills (start from `skills/_template/SKILL.md` and read `docs/03-writing-skills-and-prompts.md`), new reviewer lenses, tool adapters and safety tests.
 
