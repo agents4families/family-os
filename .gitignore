@@ -4,3 +4,6 @@ context/members/*/private/
 .agents/
 .DS_Store
 dist/
+
+# Local-only safety list (personal terms to block from public commits)
+.public-safe-denylist

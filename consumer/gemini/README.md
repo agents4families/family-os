@@ -38,7 +38,7 @@ bash scripts/compile-consumer.sh council --max-tier 2
 bash scripts/compile-consumer.sh kids
 ```
 
-Output lands in `dist/<pack>/` (inside your Drive folder, so it syncs). Each file is a small bundle (under the 10-file cap), plus `INSTRUCTIONS.txt` ready to paste. In Gemini: Gems → New Gem → paste instructions → Knowledge → **Add from Drive** → pick the files in `dist/<pack>/`. Re-run the script after you change context; the Gem sees the updated Drive file.
+Run this in your **private copy**, never the public template. Output lands in `dist/<pack>/` (git-ignored). Copy or sync `dist/` into a private Drive folder so Gemini can link the files. Each file is a small bundle (under the 10-file cap), plus `INSTRUCTIONS.txt` ready to paste. In Gemini: Gems → New Gem → paste instructions → Knowledge → **Add from Drive** → pick the files in `dist/<pack>/`. Re-run the script after you change context; the Gem sees the updated Drive file.
 
 If Drive won't accept `.md` as knowledge, add `--ext txt`.
 

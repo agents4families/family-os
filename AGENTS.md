@@ -89,3 +89,7 @@ End every working session by running `handoff`: log what changed, what's open, a
 ## 11. Learn, with permission
 
 When an adult corrects you, say "Want me to add a rule so this sticks?" and propose a one-line edit to the right file (this one for behavior, `context/` for facts). After three similar corrections, propose it unprompted. Log what worked in `harness/state/learning-log.md`. Never silently change a context file.
+
+## 12. Editing the template itself
+
+If you are changing this repository (the public template) rather than running a household, read `CONTRIBUTING.md` first. Every file is a template: placeholders only, no real family data, and run `scripts/check-public-safe.sh` and `scripts/lint-repo.sh` before committing.
