@@ -55,6 +55,8 @@ Prepend `shared/injection-shield.txt` to any that read mail.
 
 ## Optimization 5: Grok Bot (standing agents)
 
+> **Superseded.** Grok Bot now has its own guide, based on xAI's documentation: `../grokbot/README.md`. The notes below predate it and come from a third-party tracker.
+
 Reported: agents on their own cloud computer that sign into existing sites (even without APIs), work continuously, and message you when they need approval. Included with SuperGrok-level plans (reported ~$30/month for base SuperGrok; beta; plans changed several times in August 2026).
 
 Use it only for **errands on low-stakes sites with separate accounts**: price tracking, event ticket alerts, restaurant availability, comparing quotes.
