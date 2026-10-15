@@ -1,0 +1,6 @@
+outputs/
+context/members/*/private/
+.claude/
+.agents/
+.DS_Store
+dist/

@@ -1,0 +1,27 @@
+{
+  "_readme": "Agents may change only: status, updated, notes, evidence. Never edit or delete title, owner, due, or id; propose changes instead. status: open | waiting | done | dropped. done requires evidence.",
+  "schema": {
+    "id": "t-YYYYMMDD-NN",
+    "title": "verb + object, specific",
+    "owner": "adult name | agent | both",
+    "due": "YYYY-MM-DD or null",
+    "domain": "calendar | meals | home | money | school | health | travel | kids | system",
+    "status": "open",
+    "notes": "",
+    "evidence": "",
+    "updated": "YYYY-MM-DD"
+  },
+  "tasks": [
+    {
+      "id": "t-00000000-01",
+      "title": "Run the setup skill and fill context/household.md",
+      "owner": "both",
+      "due": null,
+      "domain": "system",
+      "status": "open",
+      "notes": "First task. Everything else works better after this.",
+      "evidence": "",
+      "updated": "2026-10-14"
+    }
+  ]
+}
