@@ -34,7 +34,7 @@ The core Family OS assumes a tool that can open a folder and run skills. Consume
 | **Price signal** | Included with Gemini plans | Reported: AI Ultra $100/mo, US beta | Free automations; SuperGrok for email triggers | Reported: ~$30/mo SuperGrok+ | Free (card required), $20, $100 |
 | **Kid-safe?** | Parent-supervised Gem only | No | No | No | No (18+) |
 | **Privacy posture** | Google account protections; check Gemini data controls | Same; connected-service sharing as needed | Check Grok-specific data controls; X settings may not cover it | Credentials risk | Training opt-in reported; memory off not possible (disputed) |
-| **Confidence in my facts** | Medium-high | Medium | Medium | Low-medium | Low-medium |
+| **Confidence in my facts** | Medium-high | Medium | Medium | Medium-high (see `grokbot/README.md`) | Low-medium |
 
 ## Division of labor (recommended)
 
@@ -80,7 +80,8 @@ consumer/
 ├── shared/                  constitution-1500.txt, constitution-4000.txt, injection-shield.txt,
 │                            state-bridge.md, tasks-template.csv
 ├── gemini/                  README.md (Gems + Spark), spark-skills.md, gems/*.role.md
-├── grok/                    README.md (Workspace, Skills, Automations, Grok Bot)
+├── grok/                    README.md (Workspace, Skills, Automations)
+├── grokbot/                 README.md (Named Bots, Skills, Routines, shared cloud computer)
 └── muse/                    README.md, primer.txt, goals.md
 ```
 
@@ -89,4 +90,5 @@ consumer/
 - Google: [The Gemini app becomes more agentic](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/); [Share a Gem](https://support.google.com/gemini/answer/16504957)
 - Secondary: [DataCamp on Gemini Spark](https://www.datacamp.com/blog/gemini-spark); [Engadget](https://www.engadget.com/2176556/googles-gemini-spark-is-an-agentic-ai-assistant/); [Gems file limits (Fast.io)](https://fast.io/resources/gemini-gems-file-limit/)
 - Meta: [Introducing Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/); [Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/); consumer-product details from a competitor's blog, [Carly on Meta Muse](https://www.usecarly.com/blog/meta-muse/) (treat privacy and reliability claims as unverified)
+- Grok Bot: [xAI Grok Bot docs](https://docs.x.ai/grok-bot/overview)
 - Grok: [Grok Guide 2026](https://beevaults.com/grok-guide-2026/); [Custom instructions and Workspaces](https://www.uniflow.kr/en/grok-custom-instructions-setup-guide-workspaces-agents/); [Grok Projects and Build update](https://daily.dev/posts/grok-adds-team-projects-private-apps-and-wider-rollout-of-grok-build-zlbwox0fm); [Grok Bot timeline](https://keywordseverywhere.com/news/grok-updates/grok-bot/)
